@@ -6,7 +6,7 @@
   flex-direction: column;
 }
 
-.Menu {
+.Menu, .Quiz {
   width: 500px;
   height: 500px;
   border-radius: 10px;
@@ -26,3 +26,8 @@
   font-size: 20px;
   cursor: pointer;
 }
+
+.Menu, .Quiz {
+  color: white;
+}
+
