@@ -68,11 +68,6 @@ body {
   color: #ff9f9f;
 }
 
-.hover:hover {
-  background-color: white;
-  color: #ff9f9f;
-}
-
 .restart {
   width: 30%;
   margin: 5px;

@@ -22,6 +22,22 @@ const Questions = [
         answerC: "State & Services",
         answerD: "State & Component",
         correctAnswer: "A"
+    },
+    {
+        question: "What is the default port number in which the application run?",
+        answerA: "5000",
+        answerB: "8080",
+        answerC: "3000",
+        answerD: "3030",
+        correctAnswer: "C"
+    },
+    {
+        question: "What is the best javascript library/framework to build user interfaces!",
+        answerA: "Angular.js",
+        answerB: "Vue.js",
+        answerC: "Ember.js",
+        answerD: "React.js",
+        correctAnswer: "D"
     }
 ]
 
