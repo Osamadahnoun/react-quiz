@@ -12,10 +12,10 @@ const EndScreen = () => {
     }
 
     return (
-        <div className="EndScreen">
+        <div className="EndScreen Menu">
             <h1>Quiz Finished</h1>
             <h3> {score} / {Questions.length} </h3>
-            <button onClick={restart}> Restart Quiz </button>
+            <button onClick={restart} className="restart"> Restart Quiz </button>
         </div>
     )
 
