@@ -85,8 +85,11 @@ body {
 
 
 @media screen and (max-width: 1200px) {
-  .Menu, .Quiz, .answers button {
+  .Menu, .answers button {
     font-size: 1.5vw;
+  }
+  .Quiz {
+    font-size: 1vw;
   }
 
   .Menu button, .restart {
@@ -96,8 +99,11 @@ body {
 
 
 @media screen and (max-width: 980px) {
-  .Menu, .Quiz, .answers button {
+  .Menu, .answers button {
     font-size: 1.75vw;
+  }
+  .Quiz {
+    font-size: 1vw;
   }
 
   .Menu button, .restart {
@@ -108,8 +114,12 @@ body {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
-  .Menu, .Quiz, .answers button {
+  .Menu, .answers button {
     font-size: 1.75vw;
+  }
+
+  .Quiz {
+    font-size: 1.25vw;
   }
 
   .Menu button, .restart {
@@ -120,8 +130,12 @@ body {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  .Menu, .Quiz, .answers button {
+  .Menu, .answers button {
     font-size: 2.25vw;
+  }
+
+  .Quiz {
+    font-size: 1.5vw;
   }
 
   .Menu button, .restart {
@@ -132,17 +146,17 @@ body {
 
 @media screen and (max-width: 375px) {
   .Menu, .answers button {
-    font-size: 3.2vw;
+    font-size: 3vw;
   }
   .Quiz {
-    font-size: 2.1vw;
+    font-size: 1.7vw;
   }
   .Menu button, .restart {
-    font-size: 5vw;
+    font-size: 4.8vw;
     width: 80%;
   }
   .nextBtn {
-    font-size: 2.5vw;
+    font-size: 2.3vw;
   }
 
 }
